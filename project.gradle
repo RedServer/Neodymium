@@ -32,6 +32,3 @@ runClient {
 
     args(arguments)
 }
-
-apply from: "makalibs.gradle"
-	
