@@ -3,7 +3,7 @@
 repositories {
 	maven {
 		name = 'sponge'
-		url = 'https://repo.spongepowered.org/maven/'
+		url = getProperty('repositories.sponge.url')
 	}
 }
 

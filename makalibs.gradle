@@ -1,7 +1,7 @@
 /* Common code in my projects using my libraries */
 
 repositories {
-	maven { url 'https://jitpack.io' }
+	maven { url getProperty('repositories.jitpack.url') }
 }
 
 minecraft {

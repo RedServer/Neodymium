@@ -11,7 +11,7 @@ jar {
 
 repositories {
     maven {
-        url = "https://mvn.falsepattern.com/releases"
+        url = getProperty('repositories.falsepattern.url')
     }
 }
 

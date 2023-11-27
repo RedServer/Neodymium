@@ -41,11 +41,11 @@ repositories {
 	//Needed for forge userdev on gradle 6
 	maven {
 		name = "Overmind forge repo mirror"
-		url = "https://gregtech.overminddl1.com/"
+		url = getProperty('repositories.gregtech.url')
 	}
 	maven {
 		name = "chickenbones"
-		url = "http://chickenbones.net/maven/"
+		url = getProperty('repositories.chickenbones.url')
 	}
 }
 
